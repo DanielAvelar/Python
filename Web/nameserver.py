@@ -13,7 +13,7 @@ app = Flask(__name__)
 def db_connect():
   g.conn = MySQLdb.connect(host='localhost',
                               user='root',
-                              passwd='joaop0705',
+                              passwd='******',
                               db='test')
   g.cursor = g.conn.cursor()
 
